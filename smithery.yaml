@@ -1,0 +1,16 @@
+name: naver-search-mcp
+title: Naver Real-time Search MCP
+description: Provide each user with a personal MCP URL that queries Naver Search using their API keys.
+owner: your-github-username
+entry: /mcp
+icon: https://example.com/icon.png
+configSchema:
+  - id: displayName
+    title: Display name
+    type: string
+  - id: naverClientId
+    title: Naver Client ID
+    type: string
+  - id: naverClientSecret
+    title: Naver Client Secret
+    type: string
